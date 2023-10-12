@@ -1,0 +1,106 @@
+main{
+    background-image: url("../assets/img/fondo1.png");
+    background-repeat:repeat-y;
+    background-position: center;
+    background-size:cover;
+    min-height: 500px;
+    background-attachment: fixed;
+
+}
+
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+.hero{
+    background-image: url("../assets/img/vaccine_in_hand-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: auto;
+    
+}
+h6{
+    color: #52B792;
+}
+.carrusel_div{
+    display: flex;
+    margin-top: 40px;
+}
+
+.carrusel{
+ max-width: 50%;
+}
+
+.solution{
+    background-image: url(../assets/img/biotech.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 35%;
+}
+
+.tech{
+    margin: 20px 0px;
+}
+
+.tech, .tech_text p, .tech_text1 p{
+    color:#fff;
+}
+
+.tech_text p, .tech_text1 p{
+    font-size: 1.5rem;
+}
+.tech_text, .tech_text1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 35px;
+}
+
+.highlight{
+    color: #FAC077;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.redes{
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+
+.paris_div{
+    background-image: url("../assets/img/sol-pone-paris-ciudad-historica-generada-ia.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jamb_title{
+    color: #000;
+    text-shadow:#FAC077 1px 0 10px;
+}
+
+.number_jam{
+    color: #184029;
+    font-size: larger;
+    font-weight: 900;
+}
